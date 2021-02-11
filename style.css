@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/homepic.png");
+    background-size: cover;
+    height: 100 vh;
+}
+
+h1 {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
