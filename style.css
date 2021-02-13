@@ -3,17 +3,293 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav {
+    background: rgba(0,0,0,0.8);
+    
+}
 
-body {
+nav ul {
+    width: 1200;
+    margin: 0px auto;
+}
+
+
+nav ul li {
+    width: 145px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #e2beae;
+}
+
+
+.logo {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    height: auto;
+    /*margin-left: 800px;*/
+  position: absolute;
+  top: 50%; left: 50%;
+ transform: translate(-50%,-50%);
+
+
+}
+
+.page1 {
+    background: url("../img/homepic.png");
+    height: 100vh;
+    visibility: inherit;
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+/*.page1111 {
     margin: 0;
     padding: 0;
+    background-repeat: no-repeat;
     background: url("../img/homepic.png");
     background-size: cover;
-    height: 100 vh;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    visibility: inherit;
+    z-index: 20;
+    
 }
+*/
+
+
 
 h1 {
     color: #fff;
+    text-align: center;
+}
+
+.header-text h1 {
+    
+}
+
+
+.page2 {
+    background: url("../img/pic3.png");
+    
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ .pg2-text h1 {
+     font-size: 50px;
+     float: right;
+     position: absolute;
+     top: 1200px;
+     left: 80%;
+ }   
+
+ .pg2-text p {
+    font-size: 25px;
+    color: #fff;
+    float: right;
+    position: absolute;
+    top: 1300px;
+    left: 60%;
+    right: 150px;
+    justify-items: center;
+}   
+
+ 
+.cocies img{
+    width: 100%;
+    height: 700px;
+}
+
+.page3 {
+    background: url("../img/pageb.png");
+    
+    height: 100vh;
+    visibility: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*.one {
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    height: 500px;
+    padding-bottom:20px;
+    margin-top: auto;
+}*/
+
+/* Nadpis "Dnes doporucujeme"*/
+.heading-main h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.cofe-info h1 {
+    color:black;
+    text-align: center;
+}
+.cofe-info p {
+    color:black;
+    text-align: center;
+}
+.cofe-info img {
+    width: 60%;
+    margin-left: 19%;
+ /*   border-radius: 15px; 
+    box-shadow: 4px 6px 10px #000;*/
+}
+
+.page4 {
+    background: url("../img/page4.png");
+    
+    height: 100vh;
+    visibility: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.refer-main h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.refer-info h1 {
+    color: white;
+    text-align: center;
+}
+.refer-info p {
+    color: white;
+    text-align: center;
+}
+.refer-info img {
+    width: 60%;
+    margin-left: 19%;
+}
+.page5 {
+        background: url("../img/picform.png");
+        
+        height: 100vh;
+        visibility: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.contact img {
+    margin-top: 80px;
+    float: right;
+    left: 20%;
+}
+
+.pg5-text h1 {
+    color : white;
+    font-size: 50px;
+    margin-top: 120px;
+    left: 20%;
+    right: 150px;
+    position: absolute;
+    text-align: right;
+}
+
+.pg5-text p {
+    color : white;
+    font-size: 30px;
+    margin-top: 220px;
+    left: 22%;
+    right: 100px;
+    position: absolute;
+    text-align: right;
+}
+
+.maps {
+   
+    margin-top: 350px;
+  /*  left: 20%;*/
+    right: 100px;
+    position: absolute;
+    text-align: right;
+
+}
+
+  /**** contact form ****/
+  .contact-form row {
+    margin-top: 400 px;  
+    min-width: 700px;
+    text-align: center;
+}
+
+.contact-form input {
+  
+    width: 10%;
+    margin: 5px 0px;
+    padding: 7px;
+    border: 2px solid #57045c;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.contact-form textarea {
+    width: 15%;
+    margin: 5px 0px;
+    padding: 7px;
+    border: 2px solid #530357;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    font-family:Arial;
+
+}
+input[type="submit"] {
+background-color:rgb(131, 10, 121);
+color: rgb(204, 245, 71)(195, 255, 0);
+font-size: 20px;
+}
+
+input[type="submit"]:hover {
+transition: backround-color 0.5s;
+background-color: rgb(211, 11, 184);
+color: rgb(215, 235, 238);
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    
+    margin: 0 auto;
+}
+/***** Stop floating - až na konec CSS *****/
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
 }
 
 
